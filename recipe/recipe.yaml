@@ -3,7 +3,7 @@ schema_version: 1
 context:
   python_min: "3.10"
   name: metaxy
-  version: "0.1.10"
+  version: "0.1.11"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 62b4970cdc196ee1f31a3cc972002a521fbea1dc1280db66fd540fec1456030e
+  sha256: 3dfa279f1a97001d6a448c71a38e5bd5ab9476c939a4068358137171590fbc63
 
 build:
   number: 0
